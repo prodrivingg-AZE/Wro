@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#scheme -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Robotics Team</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth; /* Smooth scroll */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f7fa;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      background: #222;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-links li {
+      margin-left: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #00bcd4;
+    }
+
+    /* Sections */
+    .section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #00bcd4;
+    }
+
+    /* Fade in animation */
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    /* Components Grid */
+    .components-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .component {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .component:hover {
+      transform: scale(1.05);
+    }
+
+    .component img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    /* Schematic Frame */
+    .scheme-frame {
+      border: 3px dashed #00bcd4;
+      padding: 20px;
+      border-radius: 5px;
+      background: #fff;
+    }
+
+.scheme-frame img {
+  max-width: 4000px; /* şəkil enini məhdudlaşdırır */
+  height: auto;     /* nisbəti qoruyur */
+  border-radius: 10px;
+}
+
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🤖 Robotics Team</div>
+      <ul class="nav-links">
+        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#home">Home</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#robot">Our Robot</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#components">Components</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#design">3D Design</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#scheme">Schematic</a></li>
+        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#team">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h1>Welcome to Our Robotics Project</h1>
+    <p>We are a passionate team building an intelligent robot with sensors, motors, and custom 3D-printed chassis.</p>
+  </section>
+
+  <!-- Our Robot Section -->
+  <section id="robot" class="section">
+    <h2>Our Robot</h2>
+    <p>
+      Our robot is designed to combine sensor input with motor control. It uses three Sharp sensors to detect obstacles, 
+      a servo motor for movement, and a TT motor for driving. All powered by an Arduino Nano and controlled through 
+      the TB6612FNG motor driver. A voltage regulator and 11.1V battery supply stable power.
+    </p>
+  </section>
+
+  <!-- Components Section -->
+  <section id="components" class="section">
+    <h2>Components Used</h2>
+    <div class="components-grid">
+      <div class="component">
+        <img src="./Our Robotics Team_files/Arduino_Nano_-_R3.jpg" alt="Arduino Nano">
+        <p>Arduino Nano</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/GP2Y0A21YK0F-IR-range-sensor.jpg" alt="Sharp Sensor">
+        <p>Sharp IR Sensor ×3</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/servo-motor.png" alt="Servo Motor">
+        <p>Servo Motor</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/tt-motor-yellow-1-1.jpg" alt="TT Motor">
+        <p>TT Motor</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/TB6612-800x800.jpg" alt="Motor Driver">
+        <p>TB6612FNG Motor Driver</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/lipo-battery-500x500.jpg" alt="Battery">
+        <p>11.1V Li-Po Battery</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/7805-Voltage-Regulator.jpg" alt="Voltage Regulator">
+        <p>Voltage Regulator</p>
+      </div>
+      <div class="component">
+        <img src="./Our Robotics Team_files/0f95a0e5e8a5a37e63dbdf7cf9e0bcd9_preview_featured.jpg" alt="3D Printed Skeleton">
+        <p>3D Printed Skeleton</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3D Design Section -->
+  <section id="design" class="section">
+    <h2>3D Design</h2>
+    <p>We built the robot’s chassis using 3D printing technology to ensure a lightweight and strong structure.</p>
+  </section>
+
+  <!-- Schematic Section -->
+  <section id="scheme" class="section">
+    <h2>Schematic</h2>
+    <div class="scheme-frame">
+      <p>Schematic of our robot will be placed here.</p>
+      <!-- Add image like this when ready -->
+      <img src="./Our Robotics Team_files/PRO.png" alt="Robot Schematic">
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="section">
+    <h2>Our Team</h2>
+    <p>We are a team of innovators, engineers, and makers working together to bring robotics to life.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Robotics Team | Built with ❤️ and innovation</p>
+  </footer>
+
+
+</body></html>
