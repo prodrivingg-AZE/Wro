@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0063)file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#scheme -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Robotics Team</title>
   <style>
@@ -117,12 +117,11 @@
       background: #fff;
     }
 
-.scheme-frame img {
-  max-width: 4000px; /* şəkil enini məhdudlaşdırır */
-  height: auto;     /* nisbəti qoruyur */
-  border-radius: 10px;
-}
-
+    .scheme-frame img {
+      max-width: 600px; /* şəkil enini məhdudlaşdırır */
+      height: auto;     /* nisbəti qoruyur */
+      border-radius: 10px;
+    }
 
     /* Footer */
     footer {
@@ -140,12 +139,12 @@
     <nav class="navbar">
       <div class="logo">🤖 Robotics Team</div>
       <ul class="nav-links">
-        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#home">Home</a></li>
-        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#robot">Our Robot</a></li>
-        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#components">Components</a></li>
-        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#design">3D Design</a></li>
-        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#scheme">Schematic</a></li>
-        <li><a href="file:///C:/Users/user/Desktop/PROdriving/PROdriving.html#team">Team</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#robot">Our Robot</a></li>
+        <li><a href="#components">Components</a></li>
+        <li><a href="#design">3D Design</a></li>
+        <li><a href="#scheme">Schematic</a></li>
+        <li><a href="#team">Team</a></li>
       </ul>
     </nav>
   </header>
@@ -160,8 +159,8 @@
   <section id="robot" class="section">
     <h2>Our Robot</h2>
     <p>
-      Our robot is designed to combine sensor input with motor control. It uses three Sharp sensors to detect obstacles, 
-      a servo motor for movement, and a TT motor for driving. All powered by an Arduino Nano and controlled through 
+      Our robot is designed to combine sensor input with motor control. It uses three Sharp sensors to detect obstacles,
+      a servo motor for movement, and a TT motor for driving. All powered by an Arduino Nano and controlled through
       the TB6612FNG motor driver. A voltage regulator and 11.1V battery supply stable power.
     </p>
   </section>
@@ -171,35 +170,35 @@
     <h2>Components Used</h2>
     <div class="components-grid">
       <div class="component">
-        <img src="./Our Robotics Team_files/Arduino_Nano_-_R3.jpg" alt="Arduino Nano">
+        <img src="Arduino_Nano_-_R3.jpg" alt="Arduino Nano">
         <p>Arduino Nano</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/GP2Y0A21YK0F-IR-range-sensor.jpg" alt="Sharp Sensor">
+        <img src="GP2Y0A21YK0F-IR-range-sensor.jpg" alt="Sharp Sensor">
         <p>Sharp IR Sensor ×3</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/servo-motor.png" alt="Servo Motor">
+        <img src="servo-motor.png" alt="Servo Motor">
         <p>Servo Motor</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/tt-motor-yellow-1-1.jpg" alt="TT Motor">
+        <img src="tt-motor-yellow-1-1.jpg" alt="TT Motor">
         <p>TT Motor</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/TB6612-800x800.jpg" alt="Motor Driver">
+        <img src="TB6612-800x800.jpg" alt="Motor Driver">
         <p>TB6612FNG Motor Driver</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/lipo-battery-500x500.jpg" alt="Battery">
+        <img src="lipo-battery-500x500.jpg" alt="Battery">
         <p>11.1V Li-Po Battery</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/7805-Voltage-Regulator.jpg" alt="Voltage Regulator">
+        <img src="7805-Voltage-Regulator.jpg" alt="Voltage Regulator">
         <p>Voltage Regulator</p>
       </div>
       <div class="component">
-        <img src="./Our Robotics Team_files/0f95a0e5e8a5a37e63dbdf7cf9e0bcd9_preview_featured.jpg" alt="3D Printed Skeleton">
+        <img src="0f95a0e5e8a5a37e63dbdf7cf9e0bcd9_preview_featured.jpg" alt="3D Printed Skeleton">
         <p>3D Printed Skeleton</p>
       </div>
     </div>
@@ -215,9 +214,8 @@
   <section id="scheme" class="section">
     <h2>Schematic</h2>
     <div class="scheme-frame">
-      <p>Schematic of our robot will be placed here.</p>
-      <!-- Add image like this when ready -->
-      <img src=".PRO.png" alt="Robot Schematic">
+      <p>Schematic of our robot:</p>
+      <img src="PRO.png" alt="Robot Schematic">
     </div>
   </section>
 
@@ -231,6 +229,5 @@
   <footer>
     <p>© 2025 Robotics Team | Built with ❤️ and innovation</p>
   </footer>
-
-
-</body></html>
+</body>
+</html>
